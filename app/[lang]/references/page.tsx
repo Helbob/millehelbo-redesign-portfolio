@@ -15,7 +15,7 @@ export default async function CVPage({ params }: { params: { lang: string } }) {
     <main className="p-8 sm:p-20">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-semibold mb-4">
-          {t["nav.work"] ?? "References"}
+          {t["nav.references"] ?? "References"}
         </h1>
         <p className="mb-4 pt-2">{t["cv.lead"] ?? "Place holder :D"}</p>
       </div>
