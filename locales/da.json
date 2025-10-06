@@ -2,18 +2,28 @@
   "home.title": "Hvor UI/UX møder velfungerende kode.",
   "home.lead": "Mit design er gennemtænkt, min kode er ren, min kaffe ligner nærmere te, og mit sidekick sikrer et godt humør under hele processen.",
   "nav.about": "Om",
+
   "about.title": "Hvorfor jeg gør det - (og hvorfor DU burde læse med!)",
+
   "about.subtitle1": "Hvem er Mille?",
   "about.text1": "Jeg er en 25-årig nyuddannet webudvikler fra KEA (nu EK).",
   "about.text2": "Min rejse startede tidligt med en stor interesse for det kreative. Det hele startede egentlig, da jeg som 12-årig begyndte at spille online og fandt ud af, at man kunne få en sej profil med HTML/CSS  og det skulle jeg selvfølgelig mestre! Denne nysgerrighed har jeg siden udviklet professionelt.",
   "about.text3": "I dag betragter jeg mig selv som brobyggeren mellem det smukke design og den velfungerende kode. Jeg har de tekniske rammer til at forene min kreative sans med logisk kodning, primært i HTML/CSS/JS, React og Next.js, og min tilgang er altid UX-drevet.",
   "about.text4": "Udover at kode og designe har jeg en stor passion for at tegne i hånden. Denne interesse for manuelt håndværk har direkte indflydelse på mit digitale arbejde. Det har givet mig en naturlig sans for pixelpræcision, komposition og at forstå værdien af et godt fundament – uanset om det er på papir eller i koden.",
+
   "about.subtitle2": "Min filosofi",
   "about.text5": "For mig handler god udvikling og design om at levere noget, der er bedre, end kunden bad om. Mit arbejde starter altid med at se design som en service, fordi det handler om at løse et problem for andre mennesker.",
   "about.text6": "Jeg begynder med at sætte mig i slutbrugerens sted. Hvad er frustrerende? Hvad kan gøres nemmere? Mit mål er at få de komplekse ting til at føles intuitive, så brugerne bare kan få tingene gjort. Jeg designer ikke i blinde; jeg laver prototyper i Figma og tager beslutninger baseret på, hvad der faktisk virker, før jeg begynder at kode.",
   "about.text7": "Når det kommer til koden, er jeg helt klart tilhænger af de rene linjer. Jeg skriver genanvendelig og letforståelig kode, fordi det sikrer, at løsningen kan holde i mange år og nemt vedligeholdes af hele teamet. En smuk løsning er ikke færdig, før den er lynhurtig og fungerer på alle skærme.",
   "about.text.8": "Og sidst, men ikke mindst: Godt arbejde kommer fra et godt sted. Mit sidekick minder mig om, at et projekt, der laves i godt humør og med åben snak, giver et bedre slutresultat!",
-  "nav.work": "CV",
+
+  "about.subtitle3": "Hvorfor er der en hund på forsiden?",
+  "about.text9": "Det er måske lidt bizart, at dette hører under “om mig” og at der overhovedet er en hund på forsiden, af min professionelle portfølje - MEN det er der god grund til!",
+  "about.text10": "Den hund er min CHO (Chief Happiness Officer), Zaga. I et miljø, som der ofte kræver dyb koncentration og løsning af komplekse problemer, sikrer Zaga, at humøret er højt under idégenerering og udvikling, og så sørger hun selvfølgelig for at man får en pause en gang i mellem!",
+
+  "nav.cv": "CV",
+  "nav.portfolio": "Portfolio",
+  "nav.references": "Referencer",
   "nav.contact": "Kontakt",
   "floating.box": "9/10 brugere foretrækker et produkt lavet af et team med en hund. (Måske opfundet på en tirsdag)"
 }

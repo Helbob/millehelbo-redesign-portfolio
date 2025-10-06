@@ -63,9 +63,9 @@ export default function Header({ locale }: HeaderProps) {
             </Link>
             <Link
               className="text-sm font-medium hover:underline"
-              href={`/${currentLang}/work`}
+              href={`/${currentLang}/cv`}
             >
-              {t["nav.work"] ?? "Work"}
+              {t["nav.cv"] ?? "CV"}
             </Link>
             <Link
               className="text-sm font-medium hover:underline"
@@ -75,7 +75,7 @@ export default function Header({ locale }: HeaderProps) {
             </Link>
             <Link
               className="text-sm font-medium hover:underline"
-              href={`/${currentLang}/ref`}
+              href={`/${currentLang}/references`}
             >
               {t["nav.ref"] ?? "Ref"}
             </Link>

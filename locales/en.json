@@ -4,7 +4,9 @@
   "nav.about": "About",
   "about.title": "Why I do it - (and why YOU should keep reading!)",
   "about.subtitle1": "Who is Mille?",
-  "nav.work": "Work",
+  "nav.cv": "CV",
+  "nav.portfolio": "Portfolio",
+  "nav.references": "References",
   "nav.contact": "Contact",
   "floating.box": "9/10 users prefer a product made by a team with a dog. (Maybe invented on a Tuesday)"
 }

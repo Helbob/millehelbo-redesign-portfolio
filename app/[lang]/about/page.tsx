@@ -20,6 +20,7 @@ export default async function LocalAbout({
     <main className="p-8 sm:p-20">
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 items-start">
         <div className="flex-1 text-left md:col-start-1">
+          {/* SECTION 1 */}
           <h1 className="font-semibold mb-4">{t["about.title"]}</h1>
 
           {/* Mobile img*/}
@@ -56,6 +57,7 @@ export default async function LocalAbout({
           />
         </div>
 
+        {/* SECTION 2 */}
         <div className="mt-6 md:mt-4 md:col-span-2 space-y-2">
           {t["about.text4"] && (
             <p className="hidden md:block">{t["about.text4"]}</p>
@@ -68,6 +70,19 @@ export default async function LocalAbout({
             {t["about.text6"] && <p>{t["about.text6"]}</p>}
             {t["about.text7"] && <p>{t["about.text7"]}</p>}
             {t["about.text8"] && <p>{t["about.text8"]}</p>}
+          </div>
+        </div>
+        {/* SECTION 3 */}
+        <div className="mt-6 md:mt-4 md:col-span-2 space-y-2">
+          {t["about.text4"] && (
+            <p className="hidden md:block">{t["about.text4"]}</p>
+          )}
+          <h2 className="pt-6 mb-4 text-lg font-medium">
+            {t["about.subtitle3"]}
+          </h2>
+          <div className="flex flex-col gap-6">
+            {t["about.text9"] && <p>{t["about.text9"]}</p>}
+            {t["about.text10"] && <p>{t["about.text10"]}</p>}
           </div>
         </div>
       </div>
