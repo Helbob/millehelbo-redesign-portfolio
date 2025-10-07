@@ -9,6 +9,19 @@ export function generateStaticParams() {
   return [{ lang: "en" }, { lang: "da" }];
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: string };
+}) {
+  const { lang } = params;
+  const t = dict[lang] ?? dict.en;
+  return {
+    title: t["about.title"],
+    description: t["about.subtitle1"] ?? undefined,
+  };
+}
+
 export default async function LocalAbout({
   params,
 }: {

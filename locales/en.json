@@ -21,6 +21,36 @@
   "about.text10": "That dog is my CHO (Chief Happiness Officer), Zaga. In an environment that often requires deep concentration and solving complex problems, Zaga ensures that the mood is high during idea generation and development, and of course, she makes sure you take a break every now and then!",
 
   "nav.cv": "CV",
+  "cv.subtitle1": "Education",
+  "cv.subtitle2": "Work Experience",
+
+  "cv.educationtitlekea": "KEA - Copenhagen School of Design and Technology",
+  "cv.educationtitlekvuc": "KVUC Vognmagergade",
+
+  "cv.educationdesc1": "Bachelor's Degree in Web Development",
+  "cv.educationdate1": "August 2023 - January 2025",
+
+  "cv.educationdesc2": "AP Graduate in Multimedia Design",
+  "cv.educationdate2": "August 2021 - June 2023",
+
+  "cv.educationdesc3": "Higher Preparatory Examination Programme (HF) - math at B-level and social studies at B-level",
+  "cv.educationdate3": "August 2019 - June 2021",
+
+  "cv.worktitlegeo": "Geomatic A/S",
+  "cv.worktitledgk": "Det Grønne Køkken",
+
+  "cv.workdesc1": "Student Assistant",
+  "cv.workdate1": "April 2023 - January 2025",
+
+  "cv.workdesc2": "Intern as Web Developer",
+  "cv.workdate2": "10 weeks, August 2024 - October 2024",
+
+  "cv.workdesc3": "Intern as Multimedia Designer",
+  "cv.workdate3": "10 weeks, January 2023 - April 2023",
+
+  "cv.workdesc4": "Waitress",
+  "cv.workdate4": "February 2019 - August 2019",
+
   "nav.portfolio": "Portfolio",
   "nav.references": "References",
   "nav.contact": "Contact",

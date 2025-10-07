@@ -22,6 +22,36 @@
   "about.text10": "Den hund er min CHO (Chief Happiness Officer), Zaga. I et miljø, som der ofte kræver dyb koncentration og løsning af komplekse problemer, sikrer Zaga, at humøret er højt under idégenerering og udvikling, og så sørger hun selvfølgelig for at man får en pause en gang i mellem!",
 
   "nav.cv": "CV",
+  "cv.subtitle1": "Uddannelse",
+  "cv.subtitle2": "Erhvervserfaring",
+
+  "cv.educationtitlekea": "KEA - Københavns Erhvervsakademi",
+  "cv.educationtitlekvuc": "KVUC Vognmagergade",
+
+  "cv.educationdesc1": "Proffesionsbachelor i Webudvikling",
+  "cv.educationdate1": "August 2023 - Januar 2025",
+
+  "cv.educationdesc2": "Erhvervsakademiuddannelse i Multimediedesign",
+  "cv.educationdate2": "August 2021 - Juni 2023",
+
+  "cv.educationdesc3": "HF Studentereksamen - matematik på B-niveau og samfundsfag på B niveau",
+  "cv.educationdate3": "August 2019 - Juni 2021",
+
+  "cv.worktitlegeo": "Geomatic A/S",
+  "cv.worktitledgk": "Det Grønne Køkken",
+
+  "cv.workdesc1": "Studentermedhjælper",
+  "cv.workdate1": "April 2023 - Januar 2025",
+
+  "cv.workdesc2": "Praktikant som webudvikler",
+  "cv.workdate2": "10 uger, August 2024 - Oktober 2024",
+
+  "cv.workdesc3": "Praktikant som multimediedesigner",
+  "cv.workdate3": "10 uger, Januar 2023 - April 2023",
+
+  "cv.workdesc4": "Tjener",
+  "cv.workdate4": "Februar 2019 - August 2019",
+
   "nav.portfolio": "Portefølje",
   "nav.references": "Referencer",
   "nav.contact": "Kontakt",
