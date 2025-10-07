@@ -2,8 +2,24 @@
   "home.title": "Where UI/UX meets working code.",
   "home.lead": "My design is thoughtful, my code is clean, and my coffee looks like tea, and my sidekick ensures a great mood during the whole process.",
   "nav.about": "About",
+
   "about.title": "Why I do it - (and why YOU should keep reading!)",
   "about.subtitle1": "Who is Mille?",
+  "about.text1": "I'm a 25-year-old newly graduated web developer from KEA (now EK).",
+  "about.text2": "My journey started early with a great interest in the creative. It all actually began when I, at the age of 12, started playing games online and found out that you could get a really cool profile with HTML/CSS and of course, I had to master it! I've since developed this curiosity professionally.",
+  "about.text3": "Today I consider myself the bridge builder between beautiful design and well-functioning code. I have the technical skills to combine my creative sense with logical coding, primarily in HTML/CSS/JS, React, and Next.js, and my approach is always UX-driven.",
+  "about.text4": "In addition to coding and designing, I have a great passion for hand drawing. This interest in manual craftsmanship has a direct impact on my digital work. It has given me a natural sense of pixel precision, composition, and an understanding of the value of a good foundation – whether it's on paper or in code.",
+
+  "about.subtitle2": "My philosophy",
+  "about.text5": "For me, good development and design is about delivering something that is better than what the client asked for. My work always starts with viewing design as a service because it's about solving a problem for other people.",
+  "about.text6": "I begin by putting myself in the end user's shoes. What is frustrating? What can be made easier? My goal is to make the complex feel intuitive so that users can just get things done. I don't design blindly; I prototype in Figma and make decisions based on what actually works before I start coding.",
+  "about.text7": "When it comes to code, I am definitely a proponent of clean lines. I write reusable and easily understandable code because it ensures that the solution can last for many years and be easily maintained by the entire team. A beautiful solution is not finished until it is lightning-fast and works on all screens.",
+  "about.text8": "And last but not least: Good work comes from a good place. My sidekick reminds me that a project made in a good mood and with open communication yields a better end result!",
+
+  "about.subtitle3": "Why is there a dog on the frontpage?",
+  "about.text9": "It may seem a bit bizarre that this falls under “about me” and that there is even a dog on the front page of my professional portfolio - BUT there is a good reason for it!",
+  "about.text10": "That dog is my CHO (Chief Happiness Officer), Zaga. In an environment that often requires deep concentration and solving complex problems, Zaga ensures that the mood is high during idea generation and development, and of course, she makes sure you take a break every now and then!",
+
   "nav.cv": "CV",
   "nav.portfolio": "Portfolio",
   "nav.references": "References",
