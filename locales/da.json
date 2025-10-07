@@ -22,6 +22,7 @@
   "about.text10": "Den hund er min CHO (Chief Happiness Officer), Zaga. I et miljø, som der ofte kræver dyb koncentration og løsning af komplekse problemer, sikrer Zaga, at humøret er højt under idégenerering og udvikling, og så sørger hun selvfølgelig for at man får en pause en gang i mellem!",
 
   "nav.cv": "CV",
+  "cv.lead": "Her kan du læse mere om min uddannelse og erhvervserfaring.",
   "cv.subtitle1": "Uddannelse",
   "cv.subtitle2": "Erhvervserfaring",
 
@@ -54,6 +55,21 @@
 
   "nav.portfolio": "Portefølje",
   "nav.references": "Referencer",
+  "nav.creative": "Kreativ",
+  "creative.lead": "En lille samling af mine tegninger og skitser.",
+
   "nav.contact": "Kontakt",
+  "title.contact": "Klar til at samarbejde? Lad os connect!",
+  "contact.text1": "Jeg er altid åben for nye muligheder og spændende projekter. Uanset om du har en idé, du gerne vil diskutere, eller hvis du bare vil sige hej, så tøv ikke med at kontakte mig!",
+
+  "contact.githubUrl": "https://github.com/Helbob",
+  "contact.githubText": "Se mine projekter",
+
+  "contact.emailUrl": "mailto:millehelbo@outlook.dk",
+  "contact.emailText": "Send mig en email",
+
+  "contact.linkedinUrl": "https://www.linkedin.com/in/mille-helbo-a40329178/",
+  "contact.linkedinText": "Connect med mig",
+
   "floating.box": "9/10 brugere foretrækker et produkt lavet af et team med en hund. (Måske opfundet på en tirsdag)"
 }

@@ -53,6 +53,21 @@
 
   "nav.portfolio": "Portfolio",
   "nav.references": "References",
+  "nav.creative": "Creative",
+  "creative.lead": "A small collection of my drawings and sketches.",
+
   "nav.contact": "Contact",
+  "title.contact": "Ready to collaborate? Let's connect!",
+  "contact.text1": "I'm always open to new opportunities and exciting projects. Whether you have an idea you'd like to discuss or just want to say hello, feel free to reach out!",
+
+  "contact.githubUrl": "https://github.com/Helbob",
+  "contact.githubText": "See my projects",
+
+  "contact.emailUrl": "mailto:millehelbo@outlook.dk",
+  "contact.emailText": "Send me an email",
+
+  "contact.linkedinUrl": "https://www.linkedin.com/in/mille-helbo-a40329178/",
+  "contact.linkedinText": "Connect with me",
+
   "floating.box": "9/10 users prefer a product made by a team with a dog. (Maybe invented on a Tuesday)"
 }

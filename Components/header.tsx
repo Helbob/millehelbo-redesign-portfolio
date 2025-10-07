@@ -75,6 +75,12 @@ export default function Header({ locale }: HeaderProps) {
             </Link>
             <Link
               className="text-sm font-medium hover:underline"
+              href={`/${currentLang}/creative`}
+            >
+              {t["nav.creative"] ?? "Creative"}
+            </Link>
+            <Link
+              className="text-sm font-medium hover:underline"
               href={`/${currentLang}/references`}
             >
               {t["nav.ref"] ?? "Ref"}
@@ -188,6 +194,13 @@ export default function Header({ locale }: HeaderProps) {
                 href={`/${currentLang}/about`}
               >
                 {t["nav.about"] ?? "About"}
+              </Link>
+              <Link
+                onClick={() => setMenuOpen(false)}
+                className="text-sm font-medium hover:underline"
+                href={`/${currentLang}/creative`}
+              >
+                {t["nav.creative"] ?? "Creative"}
               </Link>
               <Link
                 onClick={() => setMenuOpen(false)}
