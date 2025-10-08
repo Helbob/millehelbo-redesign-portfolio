@@ -9,7 +9,7 @@ import drawing6 from "../../../assets/drawing6.jpg";
 import drawing7 from "../../../assets/drawing7.jpg";
 import drawing9 from "../../../assets/drawing9.jpg";
 import drawing10 from "../../../assets/drawing10.jpg";
-import drawing11 from "../../../assets/drawing11.jpg";
+import drawing13 from "../../../assets/drawing13.jpg";
 
 const dict: Record<string, Record<string, string>> = { en, da };
 
@@ -43,7 +43,7 @@ export default async function CreativePage({
               drawing7,
               drawing1,
               drawing10,
-              drawing11,
+              drawing13,
               drawing8,
               drawing5,
               drawing6,
