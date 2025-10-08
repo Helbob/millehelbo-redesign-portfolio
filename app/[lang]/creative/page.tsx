@@ -3,7 +3,7 @@ import da from "../../../locales/da.json";
 import drawing1 from "../../../assets/drawing1.jpg";
 import drawing2 from "../../../assets/drawing2.jpg";
 import drawing3 from "../../../assets/drawing3.jpg";
-import drawing4 from "../../../assets/drawing4.jpg";
+import drawing8 from "../../../assets/drawing8.jpg";
 import drawing5 from "../../../assets/drawing5.jpg";
 import drawing6 from "../../../assets/drawing6.jpg";
 import drawing7 from "../../../assets/drawing7.jpg";
@@ -41,7 +41,7 @@ export default async function CreativePage({
               drawing1,
               drawing2,
               drawing3,
-              drawing4,
+              drawing8,
               drawing5,
               drawing6,
             ].map((img, i) => (
