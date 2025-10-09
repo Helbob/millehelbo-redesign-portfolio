@@ -139,7 +139,7 @@ export default async function CVPage({ params }: { params: { lang: string } }) {
           />
 
           <ProjectCard
-            title="Clnic von Huth"
+            title="Clinic von Huth"
             year="2024"
             tech={["Figma"]}
             thumbnail={clinicvonhuthProject}
