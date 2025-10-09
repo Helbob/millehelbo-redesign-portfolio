@@ -37,7 +37,6 @@ export default async function CreativePage({
         </p>
 
         <div className="mt-6">
-          {/* Masonry gallery: show drawing7 first */}
           <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 mt-6 space-y-4">
             {[
               drawing7,

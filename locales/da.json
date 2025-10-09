@@ -54,7 +54,30 @@
   "cv.workdate4": "Februar 2019 - August 2019",
 
   "nav.portfolio": "Portefølje",
-  "nav.references": "Referencer",
+  "portfolio.lead": "En samling af mine projekter inden for webudvikling og UI/UX.",
+
+  "portfolio.crestcalc.title": "WoW Crest Calculator",
+  "portfolio.crestcalc.summary": "En simpel lommeregner til World of Warcraft spillere, der hjælper med at optimere deres crest forbrug.",
+  "portfolio.crestcalc.subtitle": "Hvem, hvad, hvorfor?",
+  "portfolio.crestcalc.text1": "Som spiller af World of Warcraft oplevede jeg en vedvarende frustration over at skulle manuelt beregne de nødvendige 'crests' for maksimale upgrades. Derfor designede og byggede jeg denne lommeregner til at beregne det for mig.",
+
+  "portfolio.crestcalc.subtitle2": "Design?",
+  "portfolio.crestcalc.text2": "Jeg lavede den relativt hurtigt, da der snart var noget i spillet som hedder Turbo Boost - det er her hvor man kan upgrade sine ting yderligere. Det er opsat i helt normal JavaScript/HTML/CSS, da der reelt ikke var behov for noget mere avanceret.",
+
+  "portfolio.fitboks.title": "Fitboks",
+  "portfolio.fitboks.summary": "Bachelor projekt - Booking af en fitnessboks til dine træninger og hvor fitnesscentre kan administrere boksene.",
+  "portfolio.fitboks.subtitle": "Problemformulering",
+  "portfolio.fitboks.text1": "Problemformuleringen for vores bachelorprojekt var: \"Hvordan kan vi som udviklingsteam skabe et bookingsystem til fitnesscentre, der gør det nemt for brugere at booke private træningsrum, samtidig med at administrerende brugere får et klart overblik samt værktøjer til at administrere rummene? Samtidig vil vi undersøge, hvordan moderne teknologier kan understøtte teamets workflow, sikre en struktureret udviklingsproces og kvalitetssikre det endelige produkt.\"",
+
+  "portfolio.fitboks.subtitle2": "Design & Udvikling af Bookingløsning + Admin-Dashboard",
+  "portfolio.fitboks.text2": "Vi løste denne problemstilling ved at udvikle FitBoks, en webapplikation, hvor slutbrugere kan booke fitnessbokse, og fitnesscentre kan administrere deres udlejning via et dedikeret dashboard.",
+  "portfolio.fitboks.text3": "Da FitBoks skulle fungere som en skalerbar løsning for både slutbrugere og fitnesscentre, var det afgørende at etablere et stærkt og konsistent designfundament fra starten. Vi startede derfor med at udvikle en Style Tile. Dette styletile definerede de visuelle byggesten lige fra farvepaletten og typografien til button-states og ikoner.",
+  "portfolio.fitboks.text4": "Ud fra vores research og brugerundersøgelser, fandt vi frem til nogle kernefunktioner, som vi ville implementere i vores løsning. For brugerne inkluderede dette en intuitiv bookingkalender, mulighed for at vælge specifikke bokse baseret på deres præferencer, og en simpel betalingsløsning. For de administrerende brugere udviklede vi et dashboard, hvor de kunne tilføje eller fjerne bokse, se bookingstatistikker og håndtere kundesupport.",
+  "portfolio.fitboks.text5": "Da det var et bachelor gruppeprojekt, så stod vi allesammen for at udvikle hhv. frontend og backend. Frontenden er bygget i Vite/React med TypeScript. Backenden er bygget i Python med FastAPI og en PostGreSQL database. Vi brugte GitHub til versionsstyring og projektstyring via issues og projekter. For at sikre en struktureret udviklingsproces og kvalitetssikre det endelige produkt, implementerede vi CI/CD pipelines via GitHub Actions, som automatiserede test og deployment-processen.",
+
+  "portfolio.clinicvonhuth.title": "Clinic von Huth",
+  "portfolio.clinicvonhuth.summary": "Dette var et freelanceprojekt, jeg lavede for en klient. Hun ønskede en hjemmeside til sin skønhedsklinik.",
+
   "nav.creative": "Kreativ",
   "creative.lead": "En lille samling af mine tegninger og skitser.",
 

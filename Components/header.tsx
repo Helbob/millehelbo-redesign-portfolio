@@ -93,7 +93,7 @@ export default function Header({ locale }: HeaderProps) {
             </Link>
           </nav>
 
-          {/* Language switcher */}
+          {/* lang switcher */}
           <div className="flex items-center gap-2 ml-4">
             {locales.map((l) => {
               const isActive = activeLocale === l || locale === l;
@@ -124,7 +124,7 @@ export default function Header({ locale }: HeaderProps) {
           </div>
         </div>
 
-        {/* mobile language switcher + burger */}
+        {/* mobile lang switcher + burger */}
         <div className="md:hidden flex items-center gap-2">
           <div className="flex items-center gap-2">
             {locales.map((l) => {
@@ -184,7 +184,7 @@ export default function Header({ locale }: HeaderProps) {
           </div>
         </div>
 
-        {/* mobile menu popover */}
+        {/* mobile menu pop */}
         {menuOpen && (
           <div className="absolute right-4 top-full mt-2 w-56 bg-zinc-900 dark:bg-zinc-900 rounded-lg shadow-lg p-4 z-50 md:hidden">
             <nav className="flex flex-col gap-3">
