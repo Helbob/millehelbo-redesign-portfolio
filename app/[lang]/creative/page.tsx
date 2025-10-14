@@ -1,15 +1,15 @@
 import en from "../../../locales/en.json";
 import da from "../../../locales/da.json";
-import drawing1 from "../../../assets/drawing1.jpg";
-import drawing2 from "../../../assets/drawing2.jpg";
-import drawing3 from "../../../assets/drawing3.jpg";
-import drawing8 from "../../../assets/drawing8.jpg";
-import drawing5 from "../../../assets/drawing5.jpg";
-import drawing6 from "../../../assets/drawing6.jpg";
-import drawing7 from "../../../assets/drawing7.jpg";
-import drawing9 from "../../../assets/drawing9.jpg";
-import drawing10 from "../../../assets/drawing10.jpg";
-import drawing13 from "../../../assets/drawing13.jpg";
+import drawing1 from "../../../assets/creative/drawing1.jpg";
+import drawing2 from "../../../assets/creative/drawing2.jpg";
+import drawing3 from "../../../assets/creative/drawing3.jpg";
+import drawing8 from "../../../assets/creative/drawing8.jpg";
+import drawing5 from "../../../assets/creative/drawing5.jpg";
+import drawing6 from "../../../assets/creative/drawing6.jpg";
+import drawing7 from "../../../assets/creative/drawing7.jpg";
+import drawing9 from "../../../assets/creative/drawing9.jpg";
+import drawing10 from "../../../assets/creative/drawing10.jpg";
+import drawing13 from "../../../assets/creative/drawing13.jpg";
 
 const dict: Record<string, Record<string, string>> = { en, da };
 

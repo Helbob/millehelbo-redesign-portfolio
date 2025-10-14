@@ -25,7 +25,7 @@ export default async function LocalHome({
       </div>
       <div>
         <div className="hidden sm:block">
-          <div className="fixed right-80 bottom-60 z-40 w-80 h-35 bg-zinc-800 text-white rounded-xl border border-zinc-600 shadow-lg flex items-center justify-center p-4">
+          <div className="fixed right-80 bottom-60 z-40 w-80 h-35 bg-zinc-800 text-white rounded-xl shadow-lg flex items-center justify-center p-4">
             <p className="text-sm text-white text-center italic">
               {t["floating.box"]}
             </p>
@@ -38,7 +38,7 @@ export default async function LocalHome({
 
         <div className="sm:hidden">
           <div className="fixed right-0 bottom-0 z-50 flex items-end gap-3">
-            <div className="w-40 h-40 bg-zinc-800 text-white rounded-lg border border-zinc-600 shadow-md flex items-center justify-center p-2 transform -translate-y-8 z-40">
+            <div className="w-40 h-40 bg-zinc-800 text-white rounded-lg shadow-md flex items-center justify-center p-2 transform -translate-y-8 z-40">
               <p className="text-xs text-white text-center italic">
                 {t["floating.box"]}
               </p>

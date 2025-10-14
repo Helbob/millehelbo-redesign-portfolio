@@ -34,8 +34,8 @@ export default function ProjectCard({
 }: Props) {
   const [open, setOpen] = useState(false);
   return (
-    <article className="border rounded-lg overflow-hidden hover:shadow-lg transition-shadow bg-white/5">
-      <div className="aspect-video bg-zinc-100 relative">
+    <article className="rounded-xl overflow-hidden hover:shadow-lg transition-shadow bg-zinc-800">
+      <div className="aspect-video relative">
         <Image src={thumbnail} alt={title} fill className="object-cover" />
       </div>
 
