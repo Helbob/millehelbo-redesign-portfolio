@@ -87,6 +87,16 @@
   "portfolio.clinicvonhuth.subtitle3": "Facade, visit- og gavekort",
   "portfolio.clinicvonhuth.text4": "Udover hjemmesiden, designede jeg også klinikkens facade (film til ruder), visitkort og gavekort. Jeg ønskede at skabe en sammenhængende visuel identitet, der afspejler klinikkens brand og værdier. Facaden blev designet til at være indbydende og professionel, mens visitkortene og gavekortene blev skabt med fokus på enkelhed og elegance. Jeg brugte de samme beige farver og typografi som på hjemmesiden for at sikre en konsistent oplevelse på tværs af alle materialer.",
 
+  "portfolio.foodapp.title": "Food Delivery App",
+  "portfolio.foodapp.summary": "Fullstack applikation til bestilling af mad, med både en kunde- og en admin-del. Lavet som en del af mit studie.",
+  "portfolio.foodapp.subtitle": "Opgaven",
+  "portfolio.foodapp.text1": "Først og fremmest, så var denne her opgave en del af en af mine eksamener på mit webudvikler studie. Vi skulle udvikle en fullstack food delivery applikation, hvor kunder kunne bestille mad og hvor restauranterne kunne administrere deres menukort og ordrer via en admin-del. Formålet med opgaven, var at vi forstod hvordan CRUD fungerede.",
+
+  "portfolio.foodapp.subtitle2": "Design & Udvikling",
+  "portfolio.foodapp.text2": "Vi syntes som gruppe, at det kunne være sjovt at lave lidt ordspil med navnet på appen, så siden vores underviser og eksaminator hed Santiago, så tænkte vi, at det ville være sjovt at kalde vores app det samme, dog med en bindestreg til sidst, da det er fastfood/food delivery.",
+  "portfolio.foodapp.text3": "Da vi i vores UX-fag allerede havde lavet et lignende projekt - dog som prototype, så var 50% af designet allerede lavet og levede op til de samme standarder. Vi valgte derfor blot at udvide på dette, ved at gøre brug af et emoji tema. Det betyder, at alt der er på siden er mere eller mindre emojis - Mad er emojis, dit profilbillede er en emoji, sortering er emoji baseret osv.",
+  "portfolio.foodapp.text4": "Siden det var PHP vi blev lært i dette fag, valgte vi at lave applikation i PHP også. Det betød, at det var en fullstack applikation kun baseret på PHP med en MySQL server. Da formålet med applikationen var at vi forstod hvordan/hvornår man brugte CRUD (eller forskellige dele af CRUD), så skulle den selvfølgelig kunne alt det man kan med det. Det betød at man skulle kunne oprette sig som bruger, oprette en ordre, redigere ens bruger profil, slette ens profil, blokere brugerer, se ordre (som admin) og logge ind og ud. Derudover skulle der også være en oversigt som hhv. bruger og admin, hvor der stod forskellig information baseret på den rolle man har.",
+
   "nav.creative": "Kreativ",
   "creative.lead": "En lille samling af mine tegninger og skitser.",
 

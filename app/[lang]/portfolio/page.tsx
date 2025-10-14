@@ -8,6 +8,10 @@ import fitboksStyletile from "../../../assets/projects/fitboks/Styletile.png";
 import fitboksGithub from "../../../assets/projects/fitboks/github.png";
 import clinicvonhuthProject from "../../../assets/projects/clinic-von-huth.png";
 import clinicvonhuthFacade from "../../../assets/projects/clinicvonhuth-facde.jpg";
+import foodDeliveryAppProject from "../../../assets/projects/fooddeliverycrop.png";
+import foodDeliveryAppProfile from "../../../assets/projects/foodapp/foodappprofile.png";
+import foodDeliveryAppWireframes from "../../../assets/projects/foodapp/wireframes.png";
+
 import { title } from "process";
 
 const dict: Record<string, Record<string, string>> = { en, da };
@@ -143,7 +147,6 @@ export default async function CVPage({ params }: { params: { lang: string } }) {
           <ProjectCard
             title="Clinic von Huth"
             year="2024"
-            tech={["Figma"]}
             thumbnail={clinicvonhuthProject}
             summary={
               t["portfolio.clinicvonhuth.summary"] ??
@@ -155,27 +158,31 @@ export default async function CVPage({ params }: { params: { lang: string } }) {
               steps: [
                 {
                   title:
-                    t["portfolio.clinicvonhuth.subtitle"] ?? "Clinic von Huth",
+                    t["portfolio.clinicvonhuth.subtitle"] ??
+                    "The idea behind the website",
                   content: [
                     {
                       type: "text",
                       value:
-                        t["portfolio.clinicvonhuth.text1"] ?? "Clinic von Huth",
+                        t["portfolio.clinicvonhuth.text1"] ??
+                        "The idea behind the website was to create a simple and elegant platform that reflects the clinic's focus on beauty and wellness. I wanted to design a user experience that is both inviting and easy to navigate, so potential customers can quickly find the information they need.",
                     },
                     { type: "image", value: clinicvonhuthProject },
                   ],
                 },
                 {
-                  title: t["portfolio.clinicvonhuth.subtitle2"] ?? "Design?",
+                  title:
+                    t["portfolio.clinicvonhuth.subtitle2"] ??
+                    "Design & Development",
                   content: [
                     {
                       type: "text",
                       value:
                         (t["portfolio.clinicvonhuth.text2"] ??
-                          "Clinic von Huth") +
+                          "When I was coming up with a design, it was very important for me to stick to the more beige colors, and that was really the only requirement from the client's side. This meant that I started making wireframes, which I subsequently showed to the client after each change to get her approval of the design. Fortunately, it went quite smoothly, as she quickly seemed satisfied with it.") +
                         "\n\n" +
                         (t["portfolio.clinicvonhuth.text3"] ??
-                          "Clinic von Huth"),
+                          "It was also important for the client that she could update the website herself if there were price changes or other things, so it was obvious that everything should be developed in a CMS. Since the website itself did not have any major technical requirements, it made sense to use SquareSpace for this. After the development of the site was completed, I helped the client understand how she could update and maintain the site herself. Although the client has a good understanding of how to update and maintain the site, I still help with this to this day."),
                     },
                   ],
                 },
@@ -187,9 +194,52 @@ export default async function CVPage({ params }: { params: { lang: string } }) {
                     {
                       type: "text",
                       value:
-                        t["portfolio.clinicvonhuth.text4"] ?? "Clinic von Huth",
+                        t["portfolio.clinicvonhuth.text4"] ??
+                        "In addition to the website, I also designed the clinic's facade (window tinting), business cards, and gift cards. I wanted to create a cohesive visual identity that reflects the clinic's brand and values. The facade was designed to be inviting and professional, while the business cards and gift cards were created with a focus on simplicity and elegance. I used the same beige colors and typography as on the website to ensure a consistent experience across all materials.",
                     },
                     { type: "image", value: clinicvonhuthFacade },
+                  ],
+                },
+              ],
+            }}
+          />
+          <ProjectCard
+            title="Food Delivery App"
+            year="2024"
+            tech={["Figma"]}
+            thumbnail={foodDeliveryAppProject}
+            summary={
+              t["portfolio.foodapp.summary"] ??
+              "Fullstack applikation til bestilling af mad, med både en kunde- og en admin-del. Lavet som en del af mit webudvikler studie."
+            }
+            repoUrl="https://github.com/Helbob/food-delivery-webdev-exam-github"
+            process={{
+              title: "Food Delivery App — Case Study",
+              steps: [
+                {
+                  title: t["portfolio.foodapp.subtitle"] ?? "The assignment",
+                  content: [
+                    {
+                      type: "text",
+                      value: t["portfolio.foodapp.text1"] ?? "PLACEHOLDER",
+                    },
+                    { type: "image", value: foodDeliveryAppProject },
+                  ],
+                },
+                {
+                  title:
+                    t["portfolio.foodapp.subtitle2"] ?? "Design & Development",
+                  content: [
+                    {
+                      type: "text",
+                      value:
+                        (t["portfolio.foodapp.text2"] ?? "Clinic von Huth") +
+                        "\n\n" +
+                        (t["portfolio.foodapp.text3"] ?? "Clinic von Huth") +
+                        "\n\n" +
+                        (t["portfolio.foodapp.text4"] ?? "Clinic von Huth"),
+                    },
+                    { type: "image", value: foodDeliveryAppWireframes },
                   ],
                 },
               ],
