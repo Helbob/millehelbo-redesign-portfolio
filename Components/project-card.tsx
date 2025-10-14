@@ -52,7 +52,7 @@ export default function ProjectCard({
         <div className="mt-4 flex items-center gap-3">
           <button
             onClick={() => setOpen(true)}
-            className="text-sm font-medium underline"
+            className="text-sm font-medium underline cursor-pointer"
           >
             Case study
           </button>

@@ -7,6 +7,8 @@ import fitboksProject from "../../../assets/projects/fitboks.png";
 import fitboksStyletile from "../../../assets/projects/fitboks/Styletile.png";
 import fitboksGithub from "../../../assets/projects/fitboks/github.png";
 import clinicvonhuthProject from "../../../assets/projects/clinic-von-huth.png";
+import clinicvonhuthFacade from "../../../assets/projects/clinicvonhuth-facde.jpg";
+import { title } from "process";
 
 const dict: Record<string, Record<string, string>> = { en, da };
 
@@ -158,12 +160,36 @@ export default async function CVPage({ params }: { params: { lang: string } }) {
                     {
                       type: "text",
                       value:
-                        (t["portfolio.clinicvonhuth.text1"] ??
+                        t["portfolio.clinicvonhuth.text1"] ?? "Clinic von Huth",
+                    },
+                    { type: "image", value: clinicvonhuthProject },
+                  ],
+                },
+                {
+                  title: t["portfolio.clinicvonhuth.subtitle2"] ?? "Design?",
+                  content: [
+                    {
+                      type: "text",
+                      value:
+                        (t["portfolio.clinicvonhuth.text2"] ??
                           "Clinic von Huth") +
                         "\n\n" +
-                        (t["portfolio.clinicvonhuth.text2"] ??
+                        (t["portfolio.clinicvonhuth.text3"] ??
                           "Clinic von Huth"),
                     },
+                  ],
+                },
+                {
+                  title:
+                    t["portfolio.clinicvonhuth.subtitle3"] ??
+                    "Facade, business cards, and gift cards",
+                  content: [
+                    {
+                      type: "text",
+                      value:
+                        t["portfolio.clinicvonhuth.text4"] ?? "Clinic von Huth",
+                    },
+                    { type: "image", value: clinicvonhuthFacade },
                   ],
                 },
               ],

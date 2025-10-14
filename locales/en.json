@@ -73,6 +73,15 @@
 
   "portfolio.clinicvonhuth.title": "Clinic von Huth",
   "portfolio.clinicvonhuth.summary": "This was a freelance project I did for a client. She wanted a website for her beauty clinic.",
+  "portfolio.clinicvonhuth.subtitle": "The idea behind the website",
+  "portfolio.clinicvonhuth.text1": "The idea behind the website was to create a simple and elegant platform that reflects the clinic's focus on beauty and wellness. I wanted to design a user experience that is both inviting and easy to navigate, so potential customers can quickly find the information they need.",
+
+  "portfolio.clinicvonhuth.subtitle2": "Design & Development",
+  "portfolio.clinicvonhuth.text2": "When I was coming up with a design, it was very important for me to stick to the more beige colors, and that was really the only requirement from the client's side. This meant that I started making wireframes, which I subsequently showed to the client after each change to get her approval of the design. Fortunately, it went quite smoothly, as she quickly seemed satisfied with it.",
+  "portfolio.clinicvonhuth.text3": "It was also important for the client that she could update the website herself if there were price changes or other things, so it was obvious that everything should be developed in a CMS. Since the website itself did not have any major technical requirements, it made sense to use SquareSpace for this. After the development of the site was completed, I helped the client understand how she could update and maintain the site herself. Although the client has a good understanding of how to update and maintain the site, I still help with this to this day.",
+
+  "portfolio.clinicvonhuth.subtitle3": "Facade, business cards, and gift cards",
+  "portfolio.clinicvonhuth.text4": "In addition to the website, I also designed the clinic's facade (window tinting), business cards, and gift cards. I wanted to create a cohesive visual identity that reflects the clinic's brand and values. The facade was designed to be inviting and professional, while the business cards and gift cards were created with a focus on simplicity and elegance. I used the same beige colors and typography as on the website to ensure a consistent experience across all materials.",
 
   "nav.references": "References",
   "nav.creative": "Creative",

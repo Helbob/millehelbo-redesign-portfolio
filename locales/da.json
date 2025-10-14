@@ -77,6 +77,15 @@
 
   "portfolio.clinicvonhuth.title": "Clinic von Huth",
   "portfolio.clinicvonhuth.summary": "Dette var et freelanceprojekt, jeg lavede for en klient. Hun ønskede en hjemmeside til sin skønhedsklinik.",
+  "portfolio.clinicvonhuth.subtitle": "Ideen bag",
+  "portfolio.clinicvonhuth.text1": "Ideen bag hjemmesiden var at skabe en enkel og elegant platform, der afspejler klinikkens fokus på skønhed og velvære. Jeg ønskede at designe en brugeroplevelse, der er både indbydende og let at navigere, så potentielle kunder hurtigt kan finde de oplysninger, de har brug for.",
+
+  "portfolio.clinicvonhuth.subtitle2": "Design & Udvikling",
+  "portfolio.clinicvonhuth.text2": "Da jeg skulle finde på et design, var det meget vigtigt at jeg holdte mig til de mere beige farver og det var reelt det eneste krav fra kundens side af. Det betød, så at jeg begyndte at lave wireframes som jeg efterfølgende efter hver ændring viste til kunden, for at få hendes accept af designet. Det gik heldigvis ret smooth, da hun hurtigt virkede tilfreds med det.",
+  "portfolio.clinicvonhuth.text3": "Det var også vigtigt, for kunden at hun selv kunne opdatere hvis der skete prisændringer eller andet, så derfor var det oplagt, at det hele blev udviklet i et CMS. Da selve hjemmesiden, ikke havde de store tekniske krav, så gav det god mening, at gøre brug af SquareSpace til dette. Efter udviklingen af siden var lavet, hjalp jeg kunden med at forstå hvordan hun selv kunne opdatere og vedligeholde siden. Selvom kunden har en god forståelse, for at opdatere og vedligeholde siden, så hjælper jeg stadigvææk til med dette den dag i dag.",
+
+  "portfolio.clinicvonhuth.subtitle3": "Facade, visit- og gavekort",
+  "portfolio.clinicvonhuth.text4": "Udover hjemmesiden, designede jeg også klinikkens facade (film til ruder), visitkort og gavekort. Jeg ønskede at skabe en sammenhængende visuel identitet, der afspejler klinikkens brand og værdier. Facaden blev designet til at være indbydende og professionel, mens visitkortene og gavekortene blev skabt med fokus på enkelhed og elegance. Jeg brugte de samme beige farver og typografi som på hjemmesiden for at sikre en konsistent oplevelse på tværs af alle materialer.",
 
   "nav.creative": "Kreativ",
   "creative.lead": "En lille samling af mine tegninger og skitser.",
