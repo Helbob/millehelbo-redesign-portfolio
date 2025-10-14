@@ -221,7 +221,9 @@ export default async function CVPage({ params }: { params: { lang: string } }) {
                   content: [
                     {
                       type: "text",
-                      value: t["portfolio.foodapp.text1"] ?? "PLACEHOLDER",
+                      value:
+                        t["portfolio.foodapp.text1"] ??
+                        "First and foremost, this assignment was part of one of my exams in my web development studies. We had to develop a fullstack food delivery application where customers could order food, and where restaurants could manage their menus and orders through an admin section. The purpose of the assignment was for us to understand how CRUD worked.",
                     },
                     { type: "image", value: foodDeliveryAppProject },
                   ],
@@ -233,11 +235,14 @@ export default async function CVPage({ params }: { params: { lang: string } }) {
                     {
                       type: "text",
                       value:
-                        (t["portfolio.foodapp.text2"] ?? "Clinic von Huth") +
+                        (t["portfolio.foodapp.text2"] ??
+                          "As a group, we thought it would be fun to make a little wordplay with the name of the app, so since our teacher and examiner was named Santiago, we thought it would be fun to call our app the same, but with a hyphen at the end, as it is fast food/food delivery.") +
                         "\n\n" +
-                        (t["portfolio.foodapp.text3"] ?? "Clinic von Huth") +
+                        (t["portfolio.foodapp.text3"] ??
+                          "Since we had already done a similar project in our UX class - albeit as a prototype, 50% of the design was already done and met the same standards. We therefore chose to simply build on this by using an emoji theme. This means that everything on the page is more or less emojis - Food is emojis, your profile picture is an emoji, sorting is emoji-based, etc.") +
                         "\n\n" +
-                        (t["portfolio.foodapp.text4"] ?? "Clinic von Huth"),
+                        (t["portfolio.foodapp.text4"] ??
+                          "Since we were taught PHP in this class, we chose to make the application in PHP as well. This meant that it was a fullstack application based solely on PHP with a MySQL server. Since the purpose of the application was for us to understand how/when to use CRUD (or different parts of CRUD), it had to be able to do everything you can do with it. This meant that you had to be able to register as a user, create an order, edit your user profile, delete your profile, block users, view orders (as admin), and log in and out. In addition, there should also be an overview for both users and admins, where different information was displayed based on the role you have."),
                     },
                     { type: "image", value: foodDeliveryAppWireframes },
                   ],
