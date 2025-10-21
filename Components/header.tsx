@@ -39,6 +39,28 @@ export default function Header({ locale }: HeaderProps) {
   const currentLang = locale ?? activeLocale ?? "en";
   const t = dictionaries[currentLang] ?? dictionaries.en;
 
+  function normalize(path?: string | null) {
+    if (!path) return "/";
+    // Ensure leading slash, remove trailing slashes but keep root "/"
+    let p = path;
+    if (!p.startsWith("/")) p = `/${p}`;
+    p = p.replace(/\/+$/, "");
+    return p === "" ? "/" : p;
+  }
+
+  function isActiveHref(href: string, options?: { startsWith?: boolean }) {
+    const current = normalize(
+      pathname ??
+        (typeof window !== "undefined" ? window.location.pathname : "/")
+    );
+    const hrefNorm = normalize(href);
+    if (options?.startsWith) {
+      // Match exact or any nested path under the href (e.g. /portfolio -> /portfolio/123)
+      return current === hrefNorm || current.startsWith(hrefNorm + "/");
+    }
+    return current === hrefNorm;
+  }
+
   return (
     <header className="w-full py-4">
       <div className="w-full px-6 md:px-16 flex items-center justify-between relative">
@@ -56,37 +78,61 @@ export default function Header({ locale }: HeaderProps) {
         <div className="hidden md:flex items-center gap-5">
           <nav className="flex items-center gap-5">
             <Link
-              className="text-sm font-medium hover:underline"
+              className={`text-sm font-medium ${
+                isActiveHref(`/${currentLang}/about`)
+                  ? "underline decoration-3 decoration-indigo-500"
+                  : "hover:underline decoration-3 decoration-indigo-500"
+              }`}
               href={`/${currentLang}/about`}
             >
               {t["nav.about"] ?? "About"}
             </Link>
             <Link
-              className="text-sm font-medium hover:underline"
+              className={`text-sm font-medium ${
+                isActiveHref(`/${currentLang}/cv`)
+                  ? "underline decoration-3 decoration-indigo-500"
+                  : "hover:underline decoration-3 decoration-indigo-500"
+              }`}
               href={`/${currentLang}/cv`}
             >
               {t["nav.cv"] ?? "CV"}
             </Link>
             <Link
-              className="text-sm font-medium hover:underline"
+              className={`text-sm font-medium ${
+                isActiveHref(`/${currentLang}/portfolio`)
+                  ? "underline decoration-3 decoration-indigo-500"
+                  : "hover:underline decoration-3 decoration-indigo-500"
+              }`}
               href={`/${currentLang}/portfolio`}
             >
               {t["nav.portfolio"] ?? "Portfolio"}
             </Link>
             <Link
-              className="text-sm font-medium hover:underline"
+              className={`text-sm font-medium ${
+                isActiveHref(`/${currentLang}/creative`)
+                  ? "underline decoration-3 decoration-indigo-500"
+                  : "hover:underline decoration-3 decoration-indigo-500"
+              }`}
               href={`/${currentLang}/creative`}
             >
               {t["nav.creative"] ?? "Creative"}
             </Link>
-            <Link
-              className="text-sm font-medium hover:underline"
+            {/*   <Link
+              className={`text-sm font-medium ${
+                isActiveHref(`/${currentLang}/references`)
+                  ? "underline decoration-3 decoration-indigo-500"
+                  : "hover:underline decoration-3 decoration-indigo-500"
+              }`}
               href={`/${currentLang}/references`}
             >
               {t["nav.ref"] ?? "Ref"}
-            </Link>
+            </Link> */}
             <Link
-              className="text-sm font-medium hover:underline"
+              className={`text-sm font-medium ${
+                isActiveHref(`/${currentLang}/contact`)
+                  ? "underline decoration-3 decoration-indigo-500"
+                  : "hover:underline decoration-3 decoration-indigo-500"
+              }`}
               href={`/${currentLang}/contact`}
             >
               {t["nav.contact"] ?? "Contact"}
@@ -113,8 +159,8 @@ export default function Header({ locale }: HeaderProps) {
                   }}
                   className={`text-xs font-medium px-2 py-1 rounded ${
                     isActive
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-600 hover:underline"
+                      ? "bg-indigo-500 text-white"
+                      : "text-indigo-500 hover:underline"
                   }`}
                 >
                   {l.toUpperCase()}
@@ -146,8 +192,8 @@ export default function Header({ locale }: HeaderProps) {
                   }}
                   className={`text-xs font-medium px-2 py-1 rounded ${
                     isActive
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-600 hover:underline"
+                      ? "bg-indigo-500 text-white"
+                      : "text-indigo-500 hover:underline"
                   }`}
                 >
                   {l.toUpperCase()}
@@ -190,35 +236,57 @@ export default function Header({ locale }: HeaderProps) {
             <nav className="flex flex-col gap-3">
               <Link
                 onClick={() => setMenuOpen(false)}
-                className="text-sm font-medium hover:underline"
+                className={`text-sm font-medium ${
+                  isActiveHref(`/${currentLang}/about`)
+                    ? "underline decoration-3 decoration-indigo-500"
+                    : "hover:underline decoration-3 decoration-indigo-500"
+                }`}
                 href={`/${currentLang}/about`}
               >
                 {t["nav.about"] ?? "About"}
               </Link>
               <Link
                 onClick={() => setMenuOpen(false)}
-                className="text-sm font-medium hover:underline"
+                className={`text-sm font-medium ${
+                  isActiveHref(`/${currentLang}/creative`)
+                    ? "underline decoration-3 decoration-indigo-500"
+                    : "hover:underline decoration-3 decoration-indigo-500"
+                }`}
                 href={`/${currentLang}/creative`}
               >
                 {t["nav.creative"] ?? "Creative"}
               </Link>
               <Link
                 onClick={() => setMenuOpen(false)}
-                className="text-sm font-medium hover:underline"
+                className={`text-sm font-medium ${
+                  isActiveHref(`/${currentLang}/portfolio`, {
+                    startsWith: true,
+                  })
+                    ? "underline decoration-3 decoration-indigo-500"
+                    : "hover:underline decoration-3 decoration-indigo-500"
+                }`}
                 href={`/${currentLang}/portfolio`}
               >
                 {t["nav.portfolio"] ?? "Portfolio"}
               </Link>
-              <Link
+              {/*               <Link
                 onClick={() => setMenuOpen(false)}
-                className="text-sm font-medium hover:underline"
-                href={`/${currentLang}/ref`}
+                className={`text-sm font-medium ${
+                  isActiveHref(`/${currentLang}/references`)
+                    ? "underline decoration-3 decoration-indigo-500"
+                    : "hover:underline decoration-3 decoration-indigo-500"
+                }`}
+                href={`/${currentLang}/references`}
               >
                 {t["nav.ref"] ?? "Ref"}
-              </Link>
+              </Link> */}
               <Link
                 onClick={() => setMenuOpen(false)}
-                className="text-sm font-medium hover:underline"
+                className={`text-sm font-medium ${
+                  isActiveHref(`/${currentLang}/contact`)
+                    ? "underline decoration-3 decoration-indigo-500"
+                    : "hover:underline decoration-3 decoration-indigo-500"
+                }`}
                 href={`/${currentLang}/contact`}
               >
                 {t["nav.contact"] ?? "Contact"}

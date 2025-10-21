@@ -24,13 +24,13 @@ export default async function CVPage({ params }: { params: { lang: string } }) {
             href={t["contact.githubUrl"] ?? "https://github.com/Helbob"}
             target="_blank"
             rel="noopener noreferrer"
-            className="block bg-zinc-800 text-white rounded-lg md:rounded-xl shadow-md md:shadow-lg p-4 hover:shadow-xl transition-shadow"
+            className="block bg-zinc-800 text-white rounded-lg md:rounded-xl shadow-md md:shadow-lg p-4 hover:shadow-xl transition-shadow hover:text-indigo-500"
             aria-label="GitHub"
           >
             <div className="flex items-center gap-3">
               <div className="flex-shrink-0">
                 <svg
-                  className="w-12 h-12 text-white"
+                  className="w-12 h-12 text-white "
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   aria-hidden
@@ -51,7 +51,7 @@ export default async function CVPage({ params }: { params: { lang: string } }) {
 
           <a
             href={t["contact.emailUrl"] ?? "mailto:millehelbo@outlook.dk"}
-            className="block bg-zinc-800 text-white rounded-lg md:rounded-xl shadow-md md:shadow-lg p-4 hover:shadow-xl transition-shadow"
+            className="block bg-zinc-800 text-white rounded-lg md:rounded-xl shadow-md md:shadow-lg p-4 hover:shadow-xl transition-shadow hover:text-indigo-500"
             aria-label="Email"
           >
             <div className="flex items-center gap-3">
@@ -83,7 +83,7 @@ export default async function CVPage({ params }: { params: { lang: string } }) {
             }
             target="_blank"
             rel="noopener noreferrer"
-            className="block bg-zinc-800 text-white rounded-lg md:rounded-xl shadow-md md:shadow-lg p-4 hover:shadow-xl transition-shadow"
+            className="block bg-zinc-800 text-white rounded-lg md:rounded-xl shadow-md md:shadow-lg p-4 hover:shadow-xl transition-shadow hover:text-indigo-500"
             aria-label="LinkedIn"
           >
             <div className="flex items-center gap-3">

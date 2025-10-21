@@ -72,7 +72,7 @@
   "portfolio.fitboks.text5": "Since this was a bachelor group project, we all contributed to both frontend and backend development. The frontend is built with Vite/React and TypeScript. The backend is built with Python using FastAPI and a PostgreSQL database. We used GitHub for version control and project management via issues and projects. To ensure a structured development process and quality assurance, we implemented CI/CD pipelines with GitHub Actions to automate testing and deployments.",
 
   "portfolio.clinicvonhuth.title": "Clinic von Huth",
-  "portfolio.clinicvonhuth.summary": "This was a freelance project I did for a client. She wanted a website for her beauty clinic.",
+  "portfolio.clinicvonhuth.summary": "This was a freelance project I did for a client, as she wanted a website for her beauty clinic.",
   "portfolio.clinicvonhuth.subtitle": "The idea behind the website",
   "portfolio.clinicvonhuth.text1": "The idea behind the website was to create a simple and elegant platform that reflects the clinic's focus on beauty and wellness. I wanted to design a user experience that is both inviting and easy to navigate, so potential customers can quickly find the information they need.",
 

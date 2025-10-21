@@ -52,7 +52,7 @@ export default function ProjectCard({
         <div className="mt-4 flex items-center gap-3">
           <button
             onClick={() => setOpen(true)}
-            className="text-sm font-medium underline cursor-pointer"
+            className="text-sm font-medium md:no-underline underline cursor-pointer md:hover:text-indigo-500"
           >
             Case study
           </button>
@@ -61,7 +61,7 @@ export default function ProjectCard({
               href={demoUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-medium underline"
+              className="text-sm font-medium md:no-underline underline cursor-pointer md:hover:text-indigo-500"
             >
               Live
             </a>
@@ -71,7 +71,7 @@ export default function ProjectCard({
               href={repoUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-medium underline"
+              className="text-sm font-medium md:no-underline underline cursor-pointer md:hover:text-indigo-500"
             >
               Code
             </a>
