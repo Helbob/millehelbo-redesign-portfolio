@@ -61,7 +61,7 @@
   "portfolio.crestcalc.text2": "I made it relatively quickly, as there was soon something in the game called Turbo Boost - this is where you can further upgrade your things. It's set up in completely normal JavaScript/HTML/CSS, as there was really no need for anything more advanced.",
 
   "portfolio.fitboks.title": "Fitboks",
-  "portfolio.fitboks.summary": "Bachelor project — a booking system for fitness boxes where users can reserve private training rooms and fitness centers can manage their boxes.",
+  "portfolio.fitboks.summary": "Bachelor project. A booking system for fitness boxes where users can reserve private training rooms and fitness centers can manage their boxes.",
   "portfolio.fitboks.subtitle": "Problem statement",
   "portfolio.fitboks.text1": "The problem statement for our bachelor project was: \"How can we, as a development team, create a booking system for fitness centers that makes it easy for users to book private training rooms while giving administrators a clear overview and tools to manage the rooms? At the same time, we wanted to investigate how modern technologies can support the team's workflow, ensure a structured development process, and quality-assure the final product.\"",
 

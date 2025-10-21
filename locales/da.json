@@ -65,7 +65,7 @@
   "portfolio.crestcalc.text2": "Jeg lavede den relativt hurtigt, da der snart var noget i spillet som hedder Turbo Boost - det er her hvor man kan upgrade sine ting yderligere. Det er opsat i helt normal JavaScript/HTML/CSS, da der reelt ikke var behov for noget mere avanceret.",
 
   "portfolio.fitboks.title": "Fitboks",
-  "portfolio.fitboks.summary": "Bachelor projekt - Booking af en fitnessboks til dine træninger og hvor fitnesscentre kan administrere boksene.",
+  "portfolio.fitboks.summary": "Bachelor projekt. Booking af en fitnessboks til dine træninger og hvor fitnesscentre kan administrere boksene.",
   "portfolio.fitboks.subtitle": "Problemformulering",
   "portfolio.fitboks.text1": "Problemformuleringen for vores bachelorprojekt var: \"Hvordan kan vi som udviklingsteam skabe et bookingsystem til fitnesscentre, der gør det nemt for brugere at booke private træningsrum, samtidig med at administrerende brugere får et klart overblik samt værktøjer til at administrere rummene? Samtidig vil vi undersøge, hvordan moderne teknologier kan understøtte teamets workflow, sikre en struktureret udviklingsproces og kvalitetssikre det endelige produkt.\"",
 
