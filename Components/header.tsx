@@ -205,13 +205,6 @@ export default function Header({ locale }: HeaderProps) {
               <Link
                 onClick={() => setMenuOpen(false)}
                 className="text-sm font-medium hover:underline"
-                href={`/${currentLang}/work`}
-              >
-                {t["nav.work"] ?? "Work"}
-              </Link>
-              <Link
-                onClick={() => setMenuOpen(false)}
-                className="text-sm font-medium hover:underline"
                 href={`/${currentLang}/portfolio`}
               >
                 {t["nav.portfolio"] ?? "Portfolio"}

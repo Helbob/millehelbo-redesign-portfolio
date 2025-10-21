@@ -39,7 +39,7 @@ export default function CaseStudyModal({
       onClick={onClose}
     >
       <div
-        className="bg-zinc-900 max-w-3xl w-full max-h-[90vh] overflow-auto rounded p-6"
+        className="bg-zinc-900 max-w-3xl w-full max-h-[90vh] overflow-auto rounded p-6 m-4"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-start justify-between">
